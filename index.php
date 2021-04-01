@@ -3,7 +3,7 @@
 require_once 'vendor/autoload.php';
 
 Flight::route('/', function() {
-    echo 'hello world!';
+    echo 'Welcome to my application.';
 });
 
 Flight::route('/users', function() {
